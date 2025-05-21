@@ -13,7 +13,7 @@ const createPayment = async (reqData) => {
     : bookingInfoData.totalPrice;
 
   const embed_data = {
-    redirecturl: "http://localhost:5173/order/complete",
+    redirecturl: "https://fla-dev-lms.vercel.app/order/complete",
     amount,
     bookingInfoData,
   };
@@ -31,7 +31,7 @@ const createPayment = async (reqData) => {
     description: `Lazada - Payment for the order #${transID}`,
     bank_code: "",
     callback_url:
-      "https://8a9d-115-73-27-94.ngrok-free.app/v1/payment/zalopay/callback",
+      "https://file-payment-lms-backend.onrender.com/v1/payment/zalopay/callback",
   };
 
   const data =
