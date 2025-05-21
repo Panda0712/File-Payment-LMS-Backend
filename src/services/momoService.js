@@ -19,7 +19,7 @@ const createPayment = async (reqData) => {
   var partnerCode = "MOMO";
   var redirectUrl = "https://fla-dev-lms.vercel.app/order/complete";
   var ipnUrl =
-    "https://file-payment-lms-backend.onrender.com/v1/payment/momo/callback";
+    "https://5e32-171-227-194-220.ngrok-free.app/v1/payment/momo/callback";
   var requestType = "payWithMethod";
   var orderId = partnerCode + new Date().getTime();
   var requestId = orderId;

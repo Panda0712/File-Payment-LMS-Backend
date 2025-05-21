@@ -31,7 +31,7 @@ const createPayment = async (reqData) => {
     description: `Lazada - Payment for the order #${transID}`,
     bank_code: "",
     callback_url:
-      "https://file-payment-lms-backend.onrender.com/v1/payment/zalopay/callback",
+      "https://5e32-171-227-194-220.ngrok-free.app/v1/payment/zalopay/callback",
   };
 
   const data =
