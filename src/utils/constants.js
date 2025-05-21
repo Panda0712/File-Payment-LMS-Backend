@@ -4,6 +4,7 @@ export const WHITELIST_DOMAINS = [
   "https://trello-clone-opal-psi.vercel.app",
   "https://meo-station.vercel.app",
   "http://localhost:5173",
+  "https://fla-dev-lms.vercel.app",
 ];
 
 export var ACCESS_KEY_MOMO = "F8BBA842ECF85";
@@ -32,7 +33,6 @@ export const ZALOPAY_CONFIG = {
   key2: "kLtgPl8HHhfvMuDHPwKfgfsY4Ydm9eIz",
   endpoint: "https://sb-openapi.zalopay.vn/v2/create",
 };
-
 
 export const WEBSITE_DOMAINS =
   env.BUILD_MODE === "production"
