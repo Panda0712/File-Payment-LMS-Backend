@@ -3,6 +3,7 @@ import { StatusCodes } from "http-status-codes";
 import { blogRoute } from "~/routes/v1/blogRoute";
 import { courseRoute } from "~/routes/v1/courseRoute";
 import { momoRoute } from "~/routes/v1/momoRoute";
+import { notificationRoute } from "~/routes/v1/notificationRoute";
 import { userRoute } from "~/routes/v1/userRoute";
 import { zalopayRoute } from "~/routes/v1/zalopayRoute";
 
@@ -25,6 +26,9 @@ Router.use("/courses", courseRoute);
 
 // Blogs
 Router.use("/blogs", blogRoute);
+
+// Notifications
+Router.use("/notifications", notificationRoute);
 
 // Payment MOMO
 Router.use("/payment/momo", momoRoute);
