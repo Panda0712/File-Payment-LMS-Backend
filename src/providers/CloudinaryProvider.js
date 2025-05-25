@@ -58,7 +58,7 @@ const uploadLargeVideo = (fileBuffer, folderName, options = {}) => {
         const result = await cloudinaryV2.uploader.upload_large(tempFilePath, {
           resource_type: "video",
           folder: folderName,
-          chunk_size: 6 * 1024 * 1024, // 6MB mỗi chunk, có thể tăng
+          chunk_size: 50 * 1024 * 1024, // 6MB mỗi chunk, có thể tăng
           ...options,
         });
 
