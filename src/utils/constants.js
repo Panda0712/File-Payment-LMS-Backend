@@ -5,6 +5,7 @@ export const WHITELIST_DOMAINS = [
   "https://meo-station.vercel.app",
   "http://localhost:5173",
   "https://fla-dev-lms.vercel.app",
+  "https://fla-dev-lms-net.vercel.app",
   "https://file-payment-lms-backend.onrender.com",
 ];
 
